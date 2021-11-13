@@ -16,7 +16,7 @@ const arrayFromLowToHighNum = (low, high) => {
     .concat(arrayFromLowToHighNum(91, 96))
     .concat(arrayFromLowToHighNum(123, 126));
   
-  // Function to determine password Length
+  // Create Function to determine password Length and generate the password
   function generatePassword() {
     var passwordLength = +window.prompt("Choose a password length between 8 & 128")
     if (passwordLength < 8 || passwordLength > 128) {
