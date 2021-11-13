@@ -119,7 +119,7 @@ function Options() {
     }
 
     if (length > 128) {
-        alert('Password length must be less than 129 chracters')
+        alert('Password length must be less than 129 characters')
         return;
     }
 
@@ -152,7 +152,7 @@ function Options() {
 
 // Gets random element from an array.
 function getRandom(array) {
-    var randIndex = Math.floor(Math.random()* array.length);
+    var randIndex = Math.floor(Math.random( ) * array.length);
     var randElement = array[randIndex];
 
     return randElement;
