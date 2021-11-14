@@ -11,6 +11,10 @@ As and employee with access to sensitive data I needed to randomly generate a pa
 >The application sets the selected password Options as an object. Then the GeneratePassword function calls upon that object's properties to get random indices from the initial arrays.
 
 If Cancel is selected in the window alert prompt; then the character type will NOT be included in the password result. 
+
+# Screenshot of Deployed Application
+![The password generator displays a red button to generate the password](./assets/images/Password-Generator-Screen.png)
+
 ## Credits
 MDN Web Docs [https://developer.mozilla.org/en-US/](Developer.Mozilla.Org)
 
